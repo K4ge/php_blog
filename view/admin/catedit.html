@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>后台管理页面</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/catadd.css">
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>Blog后台管理界面</h1>
+		</div>
+		<div id="main">
+			<div id="side">
+				<div id="lside">
+					<div class="block">
+						<h3>栏目管理</h3>
+						<ul>
+							<li><a href="./catlist.php">栏目列表</a></li>
+							<li><a href="./catadd.php">添加栏目</a></li>
+						</ul>
+					</div>
+					<div class="block">
+						<h3>文章管理</h3>
+						<ul>
+							<li><a href="./artlist.php">文章列表</a></li>
+							<li><a href="./artadd.php">发布文章</a></li>
+							<li><a href="./commlist.php">评论管理</a></li>
+						</ul>
+					</div>
+					<div class="block">
+						<h3>个人中心</h3>
+						<ul>
+							<li><a href="./index.php">查看首页</a></li>
+							<li><a href="logout.php">退出登录</a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="rside">
+					<form action="" method="post">
+						<span id="haha">栏目名称：</span>
+						<input type="text" name="catname" value="<?php echo $cat['catname'];?>" />
+						<input type="submit" value="提交"/>
+					</form>
+				</div>
+			</div>
+			<div id="footer">
+				<ul>
+					<li><a href="#">QQ</a></li>
+					<li><a href="#">微信</a></li>
+					<li><a href="http://www.bu1uokage.cn/">博客</a></li>
+					<li><a href="http://www.baidu.com">百度</a></li>
+					<li><a href="#">支付宝支持</a></li>
+				</ul>
+				<address>Copyright © 2006-2018 bu1uokage.cn All Rights Reserved. Powered by Cuit_Bu1uokage 京ICP备08001502号</address>
+			</div>
+		</div>
+	</h1>
+</body>
+</html>

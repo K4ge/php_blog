@@ -1,0 +1,93 @@
+
+#header{
+	height: 150px;
+	margin: 0px auto;
+	width: 1260px;
+}
+#side{
+	margin: 0px auto;
+	width: 1260px;
+	height: 800px;
+	background: #ccc;
+}
+
+
+#lside{
+	float: left;
+	height: 800px;
+	width: 340px;
+	background: #eee;
+}
+#main{
+	background: #eee;
+}
+#rside{
+	float: left;
+	height: 800px;
+	width: 920px;
+	background: #eee;
+}
+h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	font-size: 40px;
+	display: block;
+}
+.block{
+	width: 300px;
+	height: 180px;
+	margin: 20px;
+	background: white;
+}
+.block h3{
+	display: block;
+	font-weight: normal;
+	font-size: 20px;
+	margin-left: 40px;
+	padding-top: 30px;
+}
+.block ul{
+	margin-left: 40px;
+	margin-top: 25px;
+}
+.block li{
+	display: block;
+	margin-top: 5px;
+}
+.block a{
+	color: #5599FF;
+}
+
+#footer{
+	width: 1260px;
+	height: 120px;
+	margin: 5px auto;
+}
+#footer ul{
+	padding-left: 20px;
+	height: 40px;
+	background: #eee;
+}
+#footer li{
+	margin-top: 10px;
+	float:left;
+	margin-right: 15px;
+}
+#footer address{
+	font-family: "微软雅黑",sans-serif;
+	font-size: 12px;
+	margin-top: 10px;
+}
+#rside .succ{
+	width: 300px;
+	margin:50px auto;
+	color: green;
+	font-size: 25px;
+}
+#rside .danger{
+	width: 300px;
+	margin:50px auto;
+	color: red;
+	font-size: 25px;
+}
